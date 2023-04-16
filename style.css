@@ -1,0 +1,27 @@
+#coffee-beans-list {
+    width: 970px;
+    height: 480px;
+    overflow-y: scroll;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.no-data {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.noUi-connect {
+    background: #577D86;
+}
